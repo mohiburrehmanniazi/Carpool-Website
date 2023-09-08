@@ -1,0 +1,102 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px; 
+}
+.main-card{
+ width: 800;
+ height: 180px;
+ display: flex;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 16px 0px;
+ border-radius: 10px;
+}
+.card-detail-section{
+    padding-top: 10px;
+}
+.img{
+    border-right: 0.3px solid black;
+    width: 180px;
+    height: 180px;
+
+}
+/* <<<<<<< Updated upstream
+.data{
+    padding-left: 5px;
+}
+.card-details{
+    display: flex;
+}
+.more-details-btn{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+}
+.more-details-btn button{
+    height: 40px;
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: rgb(255,208,0);
+}
+.more-details-btn button:hover{
+    background-color: transparent;
+    border: 4px solid rgb(255,208,0);
+    color: rgb(255,208,0);
+}
+======= */
+.text-1{
+    font-weight: 600;
+    margin-top: 7px;
+    margin-left: 7px;
+    font-size: medium;
+}
+.ot{
+    color:  rgb(255, 208, 0);
+    width: 200px;
+    margin-left: 8px;
+    
+
+}
+.ot2{
+    color:  rgb(255, 208, 0);
+    width: 100px;
+    margin-left: 8px;
+    
+
+}
+.ot3{
+    color:  rgb(255, 208, 0);
+    width: 100px;
+    margin-left: -8px;
+}
+.text-2{
+    display: flex;
+    margin-top: 4px;
+}
+.btn {
+    width: 120px;
+    height: 40px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 0.5px solid;
+    background-color: rgb(255, 208, 0);
+    color: white;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-left: 180px;
+  }
+  .btn:hover {
+    background-color: white;
+    color: rgb(255, 208, 0);
+    transition: 300ms ease-out ;
+  }
+  .b{
+    width: 120px;
+  }
+

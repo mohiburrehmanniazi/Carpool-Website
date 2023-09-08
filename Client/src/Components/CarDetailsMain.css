@@ -1,0 +1,151 @@
+.Text-1 {
+  text-align: center;
+  color: rgb(255, 208, 0);
+  font-size: 5em;
+  padding: 0 20px;
+}
+.nav {
+  background-color: black;
+  opacity: 1;
+  height: 70px;
+}
+
+.btn-c {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.btn {
+  width: 120px;
+  height: 40px;
+  font-size: medium;
+  border-radius: 5px;
+  border: 0.5px solid;
+  background-color: rgb(255, 208, 0);
+  color: white;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: white;
+  color: rgb(255, 208, 0);
+  transition: 300ms ease-out ;
+}
+.sp {
+  color: rgb(255, 208, 0);
+}
+.Text-2 {
+  text-align: center;
+  font-size: 3em;
+  margin-left: -40px;
+  margin-top: -20px;
+}
+.car {
+  height: 350px;
+  width: 700px;
+  /* margin-left: 350px; */
+}
+.car-d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1115px) {
+  .Text-2 {
+    margin-left: -50px;
+  }
+}
+@media only screen and (max-width: 964px) {
+  .Text-1 {
+    font-size: 4em;
+  }
+  .Text-2 {
+    font-size: 2.5em;
+    margin-left: 0px;
+  }
+  .car {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 783px) {
+  .Text-1 {
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .Text-2 {
+    font-size: 1.9em;
+  }
+  .car {
+    height: 280px;
+  }
+}
+@media only screen and (max-width: 601px) {
+  .Text-1 {
+    font-size: 2.5em;
+  }
+  .Text-2 {
+    font-size: 1.6em;
+  }
+  .car {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 511px) {
+  .Text-1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .Text-2 {
+    font-size: 1.25em;
+  }
+  .car {
+    height: 210px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .Text-1 {
+    font-size: 1.5em;
+  }
+  .Text-2 {
+    font-size: 0.95em;
+  }
+  .btn {
+    width: 100px;
+    font-size: 0.95em;
+  }
+  .car {
+    height: 160px;
+  }
+}
+@media only screen and (max-width: 329px) {
+  .Text-1 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  .Text-2 {
+    font-size: 0.75em;
+  }
+  .btn {
+    margin-top: 0px;
+    width: 80px;
+    font-size: 0.7em;
+    height: 20px;
+  }
+  .car {
+    height: 130px;
+  }
+}
+@media only screen and (max-width: 275px) {
+  .Text-1 {
+    font-size: 1em;
+  }
+  .Text-2 {
+    font-size: 0.64em;
+  }
+  .btn {
+    width: 60px;
+  }
+  .car {
+    height: 100px;
+  }
+}

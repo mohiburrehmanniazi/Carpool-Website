@@ -1,0 +1,170 @@
+.main1{
+    display: flex;
+    justify-content: center;
+    background-color: #EEF6FF;
+    
+}
+.main2{
+    width: 60%;
+    /* height: 200vh; */
+   
+    background-color: white;
+    
+}
+.carimg{
+    border-bottom: 1px solid lavender;
+    height: 60vh;
+    border-left: 1px solid lavender;
+    border-right: 1px solid lavender;
+}
+.carmodel{
+    padding-left: 30px;
+    color: #8491A7;
+    border-bottom: 1px solid lavender;
+    padding-bottom: 25px;
+    margin-top: 2px;
+    
+}
+.route{
+   
+ display: flex;
+    font-size: large;
+    font-weight: 600;
+    padding-left:30px;
+    padding-top: 2px;
+}
+.to1{
+    color: #8491A7;
+    width: 300px;
+    padding-left: 10px;
+}
+.to22{
+    color: #8491A7;
+    width: 100px;
+    padding-left: 10px;
+}
+.route2{
+    font-size: large;
+    font-weight: 600;
+    padding-left:30px;
+    padding-top: 2px;
+}
+.to2{
+    color: #8491A7;
+    
+    padding-left: 80px;
+    padding-right: 10px;
+}
+.details{
+    border-bottom: 1px solid lavender;
+    padding-bottom: 40px;
+}
+.ownerdetails h2{
+    padding-left: 30px;
+}
+.userpic{
+    height: 80px;
+    width: 160px;
+    display: flex;
+}
+.user p{
+    font-size: x-large;
+    font-weight: 600;
+    color: #8491A7;
+}
+.usercontact{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    font-weight: 600;
+    justify-content: center;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+.to4{
+    color: #8491A7;
+    margin-left: -20px;
+}
+.to5{
+    color: #8491A7;
+    margin-left: -20px;
+}
+.btn4 {
+    width: 120px;
+    height: 40px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 0.5px solid;
+    background-color: rgb(255, 208, 0);
+    color: white;
+    font-weight: bold;
+    margin-left: -200px;
+    margin-top: 40px;
+  }
+  .btn4:hover {
+    background-color: white;
+    color: rgb(255, 208, 0);
+    transition: 300ms ease-out ;
+  }
+  @media only screen and (max-width: 1115px) {
+    .main2{
+        width: 70%;
+    }
+    .route{
+        display: flex;
+           font-size: large;
+           font-weight: 600;
+           padding-left:30px;
+           padding-top: 5px;
+        
+       }
+       .btn4{
+        margin-left: -110px;
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+       }
+       
+  }
+  @media only screen and (max-width: 860px){
+ .carimg{
+    height: 50vh;
+ }
+  }
+    @media only screen and (max-width: 746px){
+ .carimg{
+    height: 45vh;
+ }
+ .btn4{ 
+    width: 80px;
+    height: 35px;
+    font-size: 10px;
+    margin-left: -90px;
+    
+}
+    }
+
+    @media only screen and (max-width: 700px){
+   .ownerdetails{
+    font-size: 12px;
+   }
+    }
+    @media only screen and (max-width: 615px){
+        .carimg{
+            height: 50vh;
+            
+        }
+        .btn4{
+            position: absolute;
+            margin-left: 30px;
+        }
+        .main2{
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width: 380px){
+        .carimg{
+            height: 40vh;
+        }
+      
+    }
